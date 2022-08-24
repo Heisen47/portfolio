@@ -106,7 +106,7 @@
 }
 
 .contactform h1{
-    padding: 15px;
+    padding: 5px;
     font-family: 'Josefin Sans', sans-serif;
     
 }
@@ -140,6 +140,23 @@
     width: 24px;
     margin: 3px 0;
 
+}
+
+.btn button{
+    width: 88px;
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 5px;
+    color: black;
+    background-color: blanchedalmond;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn button:hover {
+    color: blanchedalmond;
+    background-color: black
 }
 
 /* .formbackground img{
