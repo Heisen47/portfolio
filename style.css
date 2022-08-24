@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@700&family=Josefin+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(153, 153, 153);
+    width: 1 0vw;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 55px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding: 23px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: beige;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: orange; */
+    height: 45vh;
+    width: 80vw;
+    margin: 114px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+
+.hello {
+    font-size: 31px;
+    padding: 5px;
+
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+
+}
+
+.about {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.buttons button {
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 7px;
+    color: black;
+    background-color: blanchedalmond;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.buttons button:hover {
+    color: blanchedalmond;
+    background-color: black
+}
+
+
+.devpic img {
+    width: auto;
+    height: 45vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 120px;
+}
+
+.contactform h1{
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.contactform form div{
+    padding: 8px 5px;
+    display: flex;
+        flex-direction: column
+}
+
+.contactform form div input{
+    width: 16vw;
+        border-radius: 5px;
+        margin: 6px 0;
+        padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: brown;
+    margin: 0 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#form-check{
+    flex-direction: row;
+    margin: 3px;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+/* .formbackground img{
+    width: auto;
+    height: 45vh;
+} */
