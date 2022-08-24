@@ -159,7 +159,7 @@
     background-color: black
 }
 
-.certificates li{
+.certificates{
     margin-top: 10px;
     margin-left: 25px;
     font-family: 'Josefin Sans', sans-serif;
@@ -176,13 +176,64 @@
 }
 
 .Header h1{
-    margin-top: 20px;
+    padding-top: 75px;
     font-size: 32px;
     text-align: center;
     font-family: 'Aboreto', cursive;
 }
 
 .certificationContainer{
+    margin-top: 10px;
+}
+
+.bgpic{
+    padding: 20em;
+    background-repeat: no-repeat;
+
+    /* background-image: url("background.jpg"); */
+    
+    /* background-color: #cccccc; */
+}
+
+.interest {
+    text-decoration-line: none;
+}
+
+.allcf{
+    padding-top: 45px;
+    font-size: larger;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.certificatebtn button{
+    font-size: medium;
+}
+
+.certificates button:hover {
+    color: blanchedalmond;
+    background-color: black
+}
+
+.btn-block{
+    width: 1190px;
+    border-radius: 50pc;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.hobbies{
+    padding-top: 45px;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.hobbies button{
+    font-size: medium;
+}
+
+.hobbies btn-block{
     margin-top: 10px;
 }
 /* .formbackground img{
