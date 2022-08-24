@@ -159,6 +159,22 @@
     background-color: black
 }
 
+.certificates{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+}
+
+
+.certificationitem{
+    margin-top: 10px;
+}
+
+
+.certificationContainer{
+    margin-top: 10px;
+}
 /* .formbackground img{
     width: auto;
     height: 45vh;
